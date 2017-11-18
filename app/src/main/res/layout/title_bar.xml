@@ -11,14 +11,14 @@
         android:background="?attr/selectableItemBackgroundBorderless"
         android:onClick="onClick"
         android:padding="20px"
-        android:src="@mipmap/fanhui_p"
+        android:src="@mipmap/ic_topbarback"
         android:layout_centerVertical="true"/>
     <TextView
-        android:id="@+id/tv_tit"
+        android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="ETH"
+        android:text=""
         android:textColor="@android:color/black"
         android:textSize="54px" />
 

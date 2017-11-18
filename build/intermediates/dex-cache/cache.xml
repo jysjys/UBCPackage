@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="66822790ed5211c8e05c7c64a2008e1dceb04ce8">
+        sha1="9cdcdf2f9fa58adf81c343937295a93827eb32c9">
         <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d88149587e6d9f28a67370254cead0bd340507c/classes.dex" />
     </item>
 

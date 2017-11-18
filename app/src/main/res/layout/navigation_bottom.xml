@@ -36,7 +36,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_zichang"
+                    android:src="@mipmap/menu_home"
                     android:visibility="visible" />
 
                 <ImageView
@@ -45,7 +45,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_zichang_pre"
+                    android:src="@mipmap/menu_home_select"
                     android:visibility="gone" />
 
                 <TextView
@@ -65,7 +65,7 @@
                     android:layout_marginBottom="18px"
                     android:text="CRH"
                     android:textSize="30px"
-                    android:textColor="@color/main_blue_light"
+                    android:textColor="@color/backColor"
                     android:visibility="visible" />
             </FrameLayout>
 
@@ -81,7 +81,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode"
+                    android:src="@mipmap/menu_travel"
                     android:visibility="visible" />
 
                 <ImageView
@@ -90,7 +90,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode_pre"
+                    android:src="@mipmap/menu_travel_select"
                     android:visibility="gone" />
 
                 <TextView
@@ -109,7 +109,7 @@
                     android:layout_gravity="bottom|center"
                     android:layout_marginBottom="18px"
                     android:text="旅游"
-                    android:textColor="@color/main_blue_light"
+                    android:textColor="@color/backColor"
                     android:textSize="30px"
                     android:visibility="gone" />
 
@@ -127,7 +127,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode"
+                    android:src="@mipmap/menu_film"
                     android:visibility="visible" />
 
                 <ImageView
@@ -136,7 +136,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode_pre"
+                    android:src="@mipmap/menu_film_select"
                     android:visibility="gone" />
 
                 <TextView
@@ -155,7 +155,7 @@
                     android:layout_gravity="bottom|center"
                     android:layout_marginBottom="18px"
                     android:text="院线"
-                    android:textColor="@color/main_blue_light"
+                    android:textColor="@color/backColor"
                     android:textSize="30px"
                     android:visibility="gone" />
 
@@ -173,7 +173,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode"
+                    android:src="@mipmap/menu_game"
                     android:visibility="visible" />
 
                 <ImageView
@@ -182,7 +182,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode_pre"
+                    android:src="@mipmap/menu_game_select"
                     android:visibility="gone" />
 
                 <TextView
@@ -201,7 +201,7 @@
                     android:layout_gravity="bottom|center"
                     android:layout_marginBottom="18px"
                     android:text="游戏"
-                    android:textColor="@color/main_blue_light"
+                    android:textColor="@color/backColor"
                     android:textSize="30px"
                     android:visibility="gone" />
 
@@ -219,7 +219,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode"
+                    android:src="@mipmap/menu_shop"
                     android:visibility="visible" />
 
                 <ImageView
@@ -228,7 +228,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode_pre"
+                    android:src="@mipmap/menu_shop_select"
                     android:visibility="gone" />
 
                 <TextView
@@ -247,7 +247,7 @@
                     android:layout_gravity="bottom|center"
                     android:layout_marginBottom="18px"
                     android:text="电商"
-                    android:textColor="@color/main_blue_light"
+                    android:textColor="@color/backColor"
                     android:textSize="30px"
                     android:visibility="gone" />
 
@@ -265,7 +265,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode"
+                    android:src="@mipmap/menu_user"
                     android:visibility="visible" />
 
                 <ImageView
@@ -274,7 +274,7 @@
                     android:layout_height="80px"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="6px"
-                    android:src="@mipmap/ic_wode_pre"
+                    android:src="@mipmap/menu_user_select"
                     android:visibility="gone" />
 
                 <TextView
@@ -293,7 +293,7 @@
                     android:layout_gravity="bottom|center"
                     android:layout_marginBottom="18px"
                     android:text="我的"
-                    android:textColor="@color/main_blue_light"
+                    android:textColor="@color/backColor"
                     android:textSize="30px"
                     android:visibility="gone" />
 

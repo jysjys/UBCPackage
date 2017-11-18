@@ -15,6 +15,10 @@ import android.widget.TextView;
 import com.crhsi.ylkjcjq.fragments.HomeMain1Fragment;
 import com.crhsi.ylkjcjq.fragments.HomeMain2Fragment;
 import com.crhsi.ylkjcjq.R;
+import com.crhsi.ylkjcjq.fragments.HomeMain3Fragment;
+import com.crhsi.ylkjcjq.fragments.HomeMain4Fragment;
+import com.crhsi.ylkjcjq.fragments.HomeMain5Fragment;
+import com.crhsi.ylkjcjq.fragments.HomeMain6Fragment;
 import com.zhy.autolayout.AutoLayoutActivity;
 
 public class MainActivity extends AutoLayoutActivity implements View.OnClickListener {
@@ -22,6 +26,10 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
     private FragmentTransaction transaction;
     private HomeMain1Fragment mHomeMain1Fragment;
     private HomeMain2Fragment mHomeMain2Fragment;
+    private HomeMain3Fragment mHomeMain3Fragment;
+    private HomeMain4Fragment mHomeMain4Fragment;
+    private HomeMain5Fragment mHomeMain5Fragment;
+    private HomeMain6Fragment mHomeMain6Fragment;
     private ImageView btn_tab1,btn_tab2,btn_tab3,btn_tab4,btn_tab5,btn_tab6;
     private TextView tv_tab1,tv_tab2,tv_tab3,tv_tab4,tv_tab5,tv_tab6;
     private FrameLayout fmpan;
@@ -73,32 +81,38 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
                 transaction.commit();
                 break;
             case R.id.tab2:
-                btn_tab2.setVisibility(View.VISIBLE);
-                tv_tab2.setVisibility(View.VISIBLE);
-
+//                btn_tab2.setVisibility(View.VISIBLE);
+//                tv_tab2.setVisibility(View.VISIBLE);
+                startActivity(new Intent(this,TrainTravelActivity.class));
                 break;
             case R.id.tab3:
-                btn_tab3.setVisibility(View.VISIBLE);
-                tv_tab3.setVisibility(View.VISIBLE);
+//                btn_tab3.setVisibility(View.VISIBLE);
+//                tv_tab3.setVisibility(View.VISIBLE);
 
                 break;
             case R.id.tab4:
                 btn_tab4.setVisibility(View.VISIBLE);
                 tv_tab4.setVisibility(View.VISIBLE);
-
+//                transaction = fragmentManager.beginTransaction();
+//                mHomeMain4Fragment = new HomeMain4Fragment();
+//                transaction.replace(R.id.fragment_stub, mHomeMain4Fragment);
+//                transaction.commit();
                 break;
             case R.id.tab5:
                 btn_tab5.setVisibility(View.VISIBLE);
                 tv_tab5.setVisibility(View.VISIBLE);
-
+//                transaction = fragmentManager.beginTransaction();
+//                mHomeMain5Fragment = new HomeMain5Fragment();
+//                transaction.replace(R.id.fragment_stub, mHomeMain5Fragment);
+//                transaction.commit();
                 break;
             case R.id.tab6:
                 btn_tab6.setVisibility(View.VISIBLE);
                 tv_tab6.setVisibility(View.VISIBLE);
-                transaction = fragmentManager.beginTransaction();
-                mHomeMain2Fragment = new HomeMain2Fragment();
-                transaction.replace(R.id.fragment_stub, mHomeMain2Fragment);
-                transaction.commit();
+//                transaction = fragmentManager.beginTransaction();
+//                mHomeMain6Fragment = new HomeMain6Fragment();
+//                transaction.replace(R.id.fragment_stub, mHomeMain6Fragment);
+//                transaction.commit();
                 break;
             default:
 
