@@ -6,11 +6,15 @@
     <color name="colorlightbackground">#f5f5f5</color>
     <color name="colorlinedarker_gray">#e5e5e5</color>
 
+    <color name="lineBlackColor">#ebebeb</color>
+    <color name="fontRedColor">#e51c23</color>
+    <color name="fontBlueColor">#194099</color>
+
     <color name="backColor">#22000000</color>
     <color name="black">#ff000000</color>
     <color name="black_50_alpha">#88000000</color>
     <color name="blue">#ff33b5e5</color>
-    <color name="border_gray">#ffcccccc</color>
+    <color name="border_gray">#adadad</color>
     <color name="color_cihei">#ff333333</color>
     <color name="color_hei">#ff000000</color>
     <color name="color_hei_8">#00000000</color>
