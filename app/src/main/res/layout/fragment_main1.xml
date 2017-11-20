@@ -365,7 +365,7 @@
                         android:paddingTop="35px">
 
                         <TextView
-                            android:id="@+id/textView"
+                            android:id="@+id/tvTraveltext01"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20px"
@@ -374,11 +374,13 @@
                             android:text="厦门" />
 
                         <ImageView
+                            android:id="@+id/tvTravelBtn"
                             android:layout_width="90px"
                             android:layout_height="90px"
                             android:background="@mipmap/ticket_icon1" />
 
                         <TextView
+                            android:id="@+id/tvTraveltext02"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="20px"

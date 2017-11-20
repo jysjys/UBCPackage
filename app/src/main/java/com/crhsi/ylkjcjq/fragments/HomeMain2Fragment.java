@@ -6,11 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.crhsi.ylkjcjq.R;
-import com.crhsi.ylkjcjq.activitys.AboutUsActivity;
-import com.crhsi.ylkjcjq.utils.LoginConfig;
 
 
 /**
@@ -30,7 +27,6 @@ public class HomeMain2Fragment extends Fragment implements View.OnClickListener{
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.aboutus:
-                startActivity(new Intent(getContext(), AboutUsActivity.class));
                 break;
             default:
 

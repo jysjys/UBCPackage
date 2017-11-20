@@ -58,11 +58,6 @@
             android:name="design_height"
             android:value="1920" />
 
-        <activity android:name=".activitys.ReceivablesCodeActivity" />
-        <activity android:name=".activitys.LoginActivity" />
-        <activity android:name=".activitys.CoinDetialActivity" />
-        <activity android:name=".activitys.CreateAccountActivity" />
-        <activity android:name=".activitys.CreatePackageActivity" />
         <activity
             android:name=".activitys.MainActivity"
             android:configChanges="keyboardHidden|orientation"
@@ -74,12 +69,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activitys.TransferActivity" />
-        <activity android:name=".activitys.AboutUsActivity" />
         <activity android:name=".activitys.BaseActivity" />
         <activity android:name=".activitys.TrainTravelActivity" />
         <activity android:name=".activitys.NearbySearchActivity" />
-        <activity android:name=".activitys.LandmarkTourActivity" />
         <activity android:name=".activitys.DiBiaoZhiLvActivity" />
         <activity android:name=".activitys.TravelReminderActivity" />
         <activity android:name=".activitys.TravelLineActivity" />

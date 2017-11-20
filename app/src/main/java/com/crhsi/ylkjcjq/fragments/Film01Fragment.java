@@ -2,52 +2,19 @@ package com.crhsi.ylkjcjq.fragments;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.support.v4.app.Fragment;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.RecyclerView;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.crhsi.ylkjcjq.R;
-import com.crhsi.ylkjcjq.activitys.CoinDetialActivity;
 import com.crhsi.ylkjcjq.activitys.HighSpeedCinemaActivity;
-import com.crhsi.ylkjcjq.activitys.HuiminServicePointActivity;
-import com.crhsi.ylkjcjq.activitys.StationInformationActivity;
-import com.crhsi.ylkjcjq.activitys.TicketHotelActivity;
-import com.crhsi.ylkjcjq.activitys.TrainTravelActivity;
-import com.crhsi.ylkjcjq.activitys.TravelLineActivity;
 import com.crhsi.ylkjcjq.activitys.TravelReminderActivity;
-import com.crhsi.ylkjcjq.activitys.WeatherInquiryActivity;
-import com.crhsi.ylkjcjq.adapters.EndMenuItemAdapter;
 import com.crhsi.ylkjcjq.adapters.HorizontalListViewAdapter;
-import com.crhsi.ylkjcjq.adapters.RecyclerViewAdapter;
-import com.crhsi.ylkjcjq.http.httputils.AllUrl;
-import com.crhsi.ylkjcjq.http.httputils.AsyncTaskManager;
-import com.crhsi.ylkjcjq.http.httputils.GsonUtils;
-import com.crhsi.ylkjcjq.http.httputils.HttpUtil;
-import com.crhsi.ylkjcjq.http.requestparams.BaseRequestParm;
-import com.crhsi.ylkjcjq.http.responsebeans.BaseResponseBean;
-import com.crhsi.ylkjcjq.http.responsebeans.RequestListener;
-import com.crhsi.ylkjcjq.models.CoinObject;
-import com.crhsi.ylkjcjq.models.Wallet;
-import com.crhsi.ylkjcjq.utils.GlobleValue;
-import com.crhsi.ylkjcjq.utils.LoginConfig;
 import com.crhsi.ylkjcjq.utils.PicassoImageLoader;
 import com.crhsi.ylkjcjq.views.HorizontalListView;
-import com.crhsi.ylkjcjq.views.ObservableScrollView;
-import com.crhsi.ylkjcjq.views.RecyclerViewItemClickListener;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
 import com.youth.banner.Transformer;
@@ -55,8 +22,6 @@ import com.youth.banner.listener.OnBannerListener;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import es.dmoral.toasty.Toasty;
 
 
 /**

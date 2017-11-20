@@ -56,7 +56,7 @@
                         android:layout_marginTop="25px"
                         android:onClick="onClick"
                         android:text="行程行情"
-                        android:textSize="38px" />
+                        android:textSize="18sp" />
 
                     <View
                         android:id="@+id/btn01_bottom"
@@ -81,7 +81,7 @@
                         android:layout_marginTop="25px"
                         android:onClick="onClick"
                         android:text="在线优惠"
-                        android:textSize="38px" />
+                        android:textSize="18sp" />
 
                     <View
                         android:id="@+id/btn02_bottom"
@@ -107,7 +107,7 @@
                         android:layout_marginTop="25px"
                         android:onClick="onClick"
                         android:text="男女比例"
-                        android:textSize="38px" />
+                        android:textSize="18sp" />
 
                     <View
                         android:id="@+id/btn03_bottom"
@@ -133,7 +133,7 @@
                         android:layout_marginTop="25px"
                         android:onClick="onClick"
                         android:text="年龄结构"
-                        android:textSize="38px" />
+                        android:textSize="18sp" />
 
                     <View
                         android:id="@+id/btn04_bottom"

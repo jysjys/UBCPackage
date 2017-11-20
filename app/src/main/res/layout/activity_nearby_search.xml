@@ -169,39 +169,45 @@
                     android:background="@mipmap/lvyouicon" />
 
                 <ImageView
+                    android:id="@+id/dibioazhilv1"
                     android:layout_width="match_parent"
                     android:layout_height="1000px"
-                    android:layout_marginTop="40px"
+                    android:layout_marginTop="70px"
                     android:background="@mipmap/lvyouicon" />
 
                 <ImageView
+                    android:id="@+id/dibioazhilv2"
                     android:layout_width="match_parent"
                     android:layout_height="1000px"
-                    android:layout_marginTop="40px"
+                    android:layout_marginTop="70px"
                     android:background="@mipmap/lvyouicon" />
 
                 <ImageView
+                    android:id="@+id/dibioazhilv3"
                     android:layout_width="match_parent"
                     android:layout_height="1000px"
-                    android:layout_marginTop="40px"
+                    android:layout_marginTop="70px"
                     android:background="@mipmap/lvyouicon" />
 
                 <ImageView
+                    android:id="@+id/dibioazhilv4"
                     android:layout_width="match_parent"
                     android:layout_height="1000px"
-                    android:layout_marginTop="40px"
+                    android:layout_marginTop="70px"
                     android:background="@mipmap/lvyouicon" />
 
                 <ImageView
+                    android:id="@+id/dibioazhilv5"
                     android:layout_width="match_parent"
                     android:layout_height="1000px"
-                    android:layout_marginTop="40px"
+                    android:layout_marginTop="70px"
                     android:background="@mipmap/lvyouicon" />
 
                 <ImageView
+                    android:id="@+id/dibioazhilv6"
                     android:layout_width="match_parent"
                     android:layout_height="1000px"
-                    android:layout_marginTop="40px"
+                    android:layout_marginTop="70px"
                     android:background="@mipmap/lvyouicon" />
             </LinearLayout>
         </ScrollView>

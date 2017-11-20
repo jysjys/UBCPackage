@@ -2,40 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/myfiles/git/CRHServiceInfomation/app/libs/picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/2/picasso-2.5.2_b39a10a0ad7542bcf42a86e237466ec8fc923e0b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/myfiles/git/CRHServiceInfomation/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8a74207059b7071187a566a0e4e2d5df32752494/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/myfiles/git/CRHServiceInfomation/app/libs/httpmime-4.1.2.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
-        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.1.2_90495c3b136e0dee5b3d16583f6dfb66eb2c348c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/myfiles/git/CRHServiceInfomation/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="67a0823a17a06901e009a75752a63de7609c3b55">
-        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d88149587e6d9f28a67370254cead0bd340507c/classes.dex" />
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/pre-dexed/release/httpmime-4.1.2_90495c3b136e0dee5b3d16583f6dfb66eb2c348c.jar" />
     </item>
 
 </items>

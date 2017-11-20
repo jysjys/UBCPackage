@@ -139,18 +139,5 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
         tv_tab6.setVisibility(View.GONE);
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        // TODO Auto-generated method stub
-        super.onActivityResult(requestCode, resultCode, data);
-        if (resultCode == RESULT_OK) {
-            String result = data.getExtras().getString("result");
-            Intent mIntent = new Intent(this, TransferActivity.class);
-            mIntent.putExtra("code", result);
-            startActivity(mIntent);
-        } else {
-            mHomeMain1Fragment.onActivityResult(requestCode, resultCode, data);
-        }
-    }
 }
 

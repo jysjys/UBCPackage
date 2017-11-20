@@ -59,7 +59,7 @@ public class SplashActivity extends BaseActivity  {
     private void goLogin() {
 
         Intent intent = new Intent(SplashActivity.this,
-                LoginActivity.class);
+                MainActivity.class);
         startActivity(intent);
         finish();
     }

@@ -29,6 +29,12 @@ public class NearbySearchActivity extends AutoLayoutActivity implements View.OnC
                 finish();
                 break;
             case R.id.dibioazhilv:
+            case R.id.dibioazhilv1:
+            case R.id.dibioazhilv2:
+            case R.id.dibioazhilv3:
+            case R.id.dibioazhilv4:
+            case R.id.dibioazhilv5:
+            case R.id.dibioazhilv6:
                 startActivity(new Intent(this,DiBiaoZhiLvActivity.class));
                 break;
         }
