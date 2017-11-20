@@ -28,14 +28,14 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginLeft="20px"
-            android:padding="15px"
-            android:paddingLeft="30px"
             android:layout_toLeftOf="@+id/ivMsg"
             android:layout_toRightOf="@+id/iv_close"
             android:background="@drawable/edit_normal"
-            android:hint="搜索"
             android:drawableLeft="@mipmap/top_icon_search"
-            android:lines="1" />
+            android:hint="搜索"
+            android:lines="1"
+            android:padding="15px"
+            android:paddingLeft="30px" />
 
         <ImageView
             android:id="@+id/ivMsg"
@@ -67,6 +67,7 @@
                 android:paddingBottom="38px">
 
                 <LinearLayout
+                    android:id="@+id/top5_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
@@ -89,6 +90,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/top5_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
@@ -111,6 +113,8 @@
                 </LinearLayout>
 
                 <LinearLayout
+
+                    android:id="@+id/top5_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
@@ -133,6 +137,8 @@
                 </LinearLayout>
 
                 <LinearLayout
+
+                    android:id="@+id/top5_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
@@ -155,6 +161,8 @@
                 </LinearLayout>
 
                 <LinearLayout
+
+                    android:id="@+id/top5_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
@@ -185,9 +193,9 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="20px"
                 android:paddingBottom="15px"
-                android:paddingTop="15px"
-                android:layout_margin="20px">
+                android:paddingTop="15px">
 
                 <View
                     android:layout_width="match_parent"
@@ -224,6 +232,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/line_center4_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
@@ -247,6 +256,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/line_center4_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
@@ -269,6 +279,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/line_center4_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
@@ -292,6 +303,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/line_center4_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
@@ -490,7 +502,7 @@
                     </RelativeLayout>
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/tvSearchChePiao"
                         android:layout_width="match_parent"
                         android:layout_height="90px"
                         android:background="@color/fontBlueColor"
@@ -550,6 +562,7 @@
                 android:background="@color/lineBlackColor" />
 
             <ImageView
+                android:id="@+id/tvSearchLvYouimg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/lvxingtuan" />
@@ -690,6 +703,7 @@
                     </RelativeLayout>
 
                     <TextView
+                        android:id="@+id/tvSearchLvYou"
                         android:layout_width="match_parent"
                         android:layout_height="90px"
                         android:layout_marginTop="20px"
@@ -880,9 +894,9 @@
                     android:layout_width="250px"
                     android:layout_height="wrap_content"
                     android:background="#adadad"
+                    android:gravity="center"
                     android:padding="10px"
                     android:text="跨境电商"
-                    android:gravity="center"
                     android:textColor="@android:color/white" />
 
                 <TextView
@@ -1005,19 +1019,19 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:layout_weight="1"
                             android:layout_marginLeft="30px"
+                            android:layout_weight="1"
                             android:orientation="vertical">
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:background="@color/fontRedColor"
-                                android:gravity="center"
-                                android:padding="8px"
                                 android:layout_marginLeft="5px"
                                 android:layout_marginRight="5px"
                                 android:layout_marginTop="20px"
+                                android:background="@color/fontRedColor"
+                                android:gravity="center"
+                                android:padding="8px"
                                 android:text="限时折扣"
                                 android:textColor="@color/white"
                                 android:textSize="53px" />
@@ -1025,9 +1039,9 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:layout_marginTop="15px"
                                 android:layout_marginBottom="15px"
+                                android:layout_marginTop="15px"
+                                android:gravity="center"
                                 android:text="苹果iMAC,27寸" />
 
                             <TextView

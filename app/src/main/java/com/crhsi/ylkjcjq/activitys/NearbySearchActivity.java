@@ -29,7 +29,7 @@ public class NearbySearchActivity extends AutoLayoutActivity implements View.OnC
                 finish();
                 break;
             case R.id.dibioazhilv:
-
+                startActivity(new Intent(this,DiBiaoZhiLvActivity.class));
                 break;
         }
     }

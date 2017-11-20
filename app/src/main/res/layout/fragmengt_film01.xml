@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <com.youth.banner.Banner xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="680px" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="900px"
+                android:background="@mipmap/gaotieyuanxian01" />
+
+            <com.crhsi.ylkjcjq.views.HorizontalListView
+                android:id="@+id/mHorizontalListView"
+                android:layout_width="match_parent"
+                android:layout_height="700px" />
+            <ImageView
+                android:id="@+id/imgchange01"
+                android:layout_width="match_parent"
+                android:layout_height="1500px"
+                android:onClick="onClick"
+                android:background="@mipmap/gaotieyingyuancenter03" />
+            <ImageView
+                android:id="@+id/imgchange02"
+                android:layout_width="match_parent"
+                android:layout_height="1200px"
+                android:layout_margin="30px"
+                android:onClick="onClick"
+                android:background="@mipmap/gaotieyingyuancenter04" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

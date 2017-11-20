@@ -23,7 +23,14 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.crhsi.ylkjcjq.activitys.HuiminServicePointActivity;
 import com.crhsi.ylkjcjq.activitys.ReceivablesCodeActivity;
+import com.crhsi.ylkjcjq.activitys.StationInformationActivity;
+import com.crhsi.ylkjcjq.activitys.TicketHotelActivity;
+import com.crhsi.ylkjcjq.activitys.TrainTravelActivity;
+import com.crhsi.ylkjcjq.activitys.TravelLineActivity;
+import com.crhsi.ylkjcjq.activitys.TravelReminderActivity;
+import com.crhsi.ylkjcjq.activitys.WeatherInquiryActivity;
 import com.crhsi.ylkjcjq.http.httputils.HttpUtil;
 import com.crhsi.ylkjcjq.utils.GlobleValue;
 import com.crhsi.ylkjcjq.views.ObservableScrollView;
@@ -76,6 +83,7 @@ public class HomeMain1Fragment extends Fragment implements View.OnClickListener 
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_main1, null);
         mContext = view.getContext();
+        initView(view);
         //recyclerView填充数据(忽略不计)
 //        mRecyclerView = (RecyclerView) view.findViewById(R.id.recycler);
 //        tv_zongzichang = (TextView) view.findViewById(R.id.tv_zongzichang);
@@ -136,6 +144,23 @@ public class HomeMain1Fragment extends Fragment implements View.OnClickListener 
         return view;
     }
 
+    private void initView(View view) {
+        view.findViewById(R.id.top5_1).setOnClickListener(this);
+        view.findViewById(R.id.top5_2).setOnClickListener(this);
+        view.findViewById(R.id.top5_3).setOnClickListener(this);
+        view.findViewById(R.id.top5_4).setOnClickListener(this);
+        view.findViewById(R.id.top5_5).setOnClickListener(this);
+
+        view.findViewById(R.id.line_center4_1).setOnClickListener(this);
+        view.findViewById(R.id.line_center4_2).setOnClickListener(this);
+        view.findViewById(R.id.line_center4_3).setOnClickListener(this);
+        view.findViewById(R.id.line_center4_4).setOnClickListener(this);
+        view.findViewById(R.id.tvSearchChePiao).setOnClickListener(this);
+
+        view.findViewById(R.id.tvSearchLvYouimg).setOnClickListener(this);
+        view.findViewById(R.id.tvSearchLvYou).setOnClickListener(this);
+    }
+
 
     @Override
     public void onClick(View view) {
@@ -143,28 +168,37 @@ public class HomeMain1Fragment extends Fragment implements View.OnClickListener 
 //        Picasso.with(context).load("http://i.imgur.com/DvpvklR.png").into(imageView);
 
         switch (view.getId()) {
-//            case R.id.iv_menu:
-//                if (mDrawerLayout.isDrawerOpen(Gravity.END)){
-//                    mDrawerLayout.closeDrawer(Gravity.END,true);
-//                }else {
-//                    mDrawerLayout.openDrawer(Gravity.END,true);
-//                }
-//                break;
-//            case R.id.mRL1:
-//                mDrawerLayout.closeDrawer(Gravity.END,true);
-//                startActivityForResult(new Intent(view.getContext(), CaptureActivity.class), 0);
-//                break;
-//
-//            case R.id.mRL2:
-//                mDrawerLayout.closeDrawer(Gravity.END,true);
-//                startActivityForResult(new Intent(view.getContext(),CreatePackageActivity.class),0);
-//                break;
-//            case R.id.tvWallet2:
-//            case R.id.tvWallet3:
-//                Intent min = new Intent(view.getContext(), ReceivablesCodeActivity.class);
-//                min.putExtra("code",tvWallet2.getText().toString());
-//                startActivity(min);
-//                break;
+            case R.id.top5_1:
+                startActivity(new Intent(mContext, TravelReminderActivity.class));
+                break;
+            case R.id.top5_2:
+                startActivity(new Intent(mContext, TravelLineActivity.class));
+                break;
+            case R.id.top5_3:
+                startActivity(new Intent(mContext, StationInformationActivity.class));
+                break;
+            case R.id.top5_4:
+                startActivity(new Intent(mContext, TicketHotelActivity.class));
+                break;
+            case R.id.top5_5:
+                startActivity(new Intent(mContext, WeatherInquiryActivity.class));
+                break;
+            case R.id.line_center4_1:
+                break;
+            case R.id.line_center4_2:
+                startActivity(new Intent(mContext, HuiminServicePointActivity.class));
+                break;
+            case R.id.line_center4_3:
+                break;
+            case R.id.line_center4_4:
+                break;
+            case R.id.tvSearchChePiao:
+                startActivity(new Intent(mContext,TicketHotelActivity.class));
+                break;
+            case R.id.tvSearchLvYou:
+            case R.id.tvSearchLvYouimg:
+                startActivity(new Intent(mContext,TrainTravelActivity.class));
+                break;
            default:
 
                 break;

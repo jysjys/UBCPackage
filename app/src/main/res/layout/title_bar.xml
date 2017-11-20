@@ -22,4 +22,15 @@
         android:textColor="@android:color/black"
         android:textSize="54px" />
 
+    <ImageView
+        android:id="@+id/iv_right_img"
+        android:layout_width="108px"
+        android:layout_height="108px"
+        android:visibility="gone"
+        android:layout_marginRight="20px"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:onClick="onClick"
+        android:padding="20px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
 </RelativeLayout>

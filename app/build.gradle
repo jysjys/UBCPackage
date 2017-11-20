@@ -103,6 +103,7 @@ dependencies {
     compile 'de.hdodenhof:circleimageview:2.1.0'
     compile 'com.github.GrenderG:Toasty:1.1.5'
     compile 'com.zhy:autolayout:1.4.5'
+    compile 'com.youth.banner:banner:1.4.10'
     compile 'com.google.code.gson:gson:2.7'
     compile 'com.squareup.picasso:picasso:2.3.2'
     compile 'com.google.zxing:zxing-parent:3.3.0'

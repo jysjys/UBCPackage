@@ -88,7 +88,7 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
             case R.id.tab3:
 //                btn_tab3.setVisibility(View.VISIBLE);
 //                tv_tab3.setVisibility(View.VISIBLE);
-
+                startActivity(new Intent(this,HighSpeedCinemaActivity.class));
                 break;
             case R.id.tab4:
                 btn_tab4.setVisibility(View.VISIBLE);
