@@ -7,9 +7,18 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.GridView;
 
 import com.crhsi.ylkjcjq.R;
+import com.crhsi.ylkjcjq.activitys.HighSpeedCinemaActivity;
 import com.crhsi.ylkjcjq.activitys.TravelReminderActivity;
+import com.crhsi.ylkjcjq.adapters.GridAdapter;
+import com.crhsi.ylkjcjq.adapters.HorizontalListViewAdapter;
+import com.crhsi.ylkjcjq.views.HorizontalListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -20,6 +29,7 @@ import com.crhsi.ylkjcjq.activitys.TravelReminderActivity;
 public class Film02Fragment extends Fragment implements View.OnClickListener {
 
     private Context mContext;
+    private HorizontalListView mHorizontalListView;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -30,7 +40,17 @@ public class Film02Fragment extends Fragment implements View.OnClickListener {
     }
 
     private void initView(View view) {
-//        view.findViewById(R.id.top5_1).setOnClickListener(this);
+        mHorizontalListView = (HorizontalListView) view.findViewById(R.id.mHorizontalListView);
+        String[] titles = {"", "", "",""};
+        final int[] ids = {R.mipmap.film_h_01, R.mipmap.film_h_01, R.mipmap.film_h_01,R.mipmap.film_h_01};
+        HorizontalListViewAdapter adapter = new HorizontalListViewAdapter(mContext, titles, ids);
+        mHorizontalListView.setAdapter(adapter);
+
+        GridView mGridView = (GridView)view.findViewById(R.id.mGridView);
+
+        final int[] idds = {R.mipmap.qidai01, R.mipmap.qidai02, R.mipmap.qidai01,R.mipmap.qidai01, R.mipmap.qidai02};
+        GridAdapter ad = new GridAdapter(view.getContext(), idds);
+        mGridView.setAdapter(ad);
     }
 
 

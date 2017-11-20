@@ -30,8 +30,8 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
     private HomeMain4Fragment mHomeMain4Fragment;
     private HomeMain5Fragment mHomeMain5Fragment;
     private HomeMain6Fragment mHomeMain6Fragment;
-    private ImageView btn_tab1,btn_tab2,btn_tab3,btn_tab4,btn_tab5,btn_tab6;
-    private TextView tv_tab1,tv_tab2,tv_tab3,tv_tab4,tv_tab5,tv_tab6;
+    private ImageView btn_tab1, btn_tab2, btn_tab3, btn_tab4, btn_tab5, btn_tab6;
+    private TextView tv_tab1, tv_tab2, tv_tab3, tv_tab4, tv_tab5, tv_tab6;
     private FrameLayout fmpan;
     private LayoutInflater inflater;
 
@@ -70,9 +70,10 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
 
     @Override
     public void onClick(View view) {
-        hidebtn();
+
         switch (view.getId()) {
             case R.id.tab1:
+                hidebtn();
                 btn_tab1.setVisibility(View.VISIBLE);
                 tv_tab1.setVisibility(View.VISIBLE);
                 transaction = fragmentManager.beginTransaction();
@@ -83,14 +84,15 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
             case R.id.tab2:
 //                btn_tab2.setVisibility(View.VISIBLE);
 //                tv_tab2.setVisibility(View.VISIBLE);
-                startActivity(new Intent(this,TrainTravelActivity.class));
+                startActivity(new Intent(this, TrainTravelActivity.class));
                 break;
             case R.id.tab3:
 //                btn_tab3.setVisibility(View.VISIBLE);
 //                tv_tab3.setVisibility(View.VISIBLE);
-                startActivity(new Intent(this,HighSpeedCinemaActivity.class));
+                startActivity(new Intent(this, HighSpeedCinemaActivity.class));
                 break;
             case R.id.tab4:
+                hidebtn();
                 btn_tab4.setVisibility(View.VISIBLE);
                 tv_tab4.setVisibility(View.VISIBLE);
 //                transaction = fragmentManager.beginTransaction();
@@ -99,6 +101,7 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
 //                transaction.commit();
                 break;
             case R.id.tab5:
+                hidebtn();
                 btn_tab5.setVisibility(View.VISIBLE);
                 tv_tab5.setVisibility(View.VISIBLE);
 //                transaction = fragmentManager.beginTransaction();
@@ -107,6 +110,7 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
 //                transaction.commit();
                 break;
             case R.id.tab6:
+                hidebtn();
                 btn_tab6.setVisibility(View.VISIBLE);
                 tv_tab6.setVisibility(View.VISIBLE);
 //                transaction = fragmentManager.beginTransaction();
@@ -120,7 +124,7 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
         }
     }
 
-    private void hidebtn(){
+    private void hidebtn() {
         btn_tab1.setVisibility(View.GONE);
         tv_tab1.setVisibility(View.GONE);
         btn_tab2.setVisibility(View.GONE);
@@ -141,10 +145,10 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK) {
             String result = data.getExtras().getString("result");
-            Intent mIntent = new Intent(this,TransferActivity.class);
-            mIntent.putExtra("code",result);
+            Intent mIntent = new Intent(this, TransferActivity.class);
+            mIntent.putExtra("code", result);
             startActivity(mIntent);
-        }else {
+        } else {
             mHomeMain1Fragment.onActivityResult(requestCode, resultCode, data);
         }
     }

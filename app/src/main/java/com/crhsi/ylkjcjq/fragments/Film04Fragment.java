@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 
 import com.crhsi.ylkjcjq.R;
 import com.crhsi.ylkjcjq.activitys.TravelReminderActivity;
+import com.crhsi.ylkjcjq.adapters.HorizontalListViewAdapter;
+import com.crhsi.ylkjcjq.views.HorizontalListView;
 
 
 /**
@@ -30,10 +32,13 @@ public class Film04Fragment extends Fragment implements View.OnClickListener {
     }
 
     private void initView(View view) {
-//        view.findViewById(R.id.top5_1).setOnClickListener(this);
+        HorizontalListView mHorizontalListView = (HorizontalListView) view.findViewById(R.id.mHorizontalListView);
+        String[] titles = {"", "", "", "", ""};
+        final int[] ids = {R.mipmap.film_img_1, R.mipmap.film_img_2, R.mipmap.film_img_3, R.mipmap.film_img_4, R.mipmap.film_img_5};
+        HorizontalListViewAdapter adapter = new HorizontalListViewAdapter(mContext, titles, ids);
+        mHorizontalListView.setAdapter(adapter);
     }
-
-
+    
     @Override
     public void onClick(View view) {
 
