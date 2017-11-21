@@ -185,6 +185,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1050px"
                     android:layout_marginTop="70px"
+                    android:onClick="onClick"
                     android:background="@mipmap/lvyouicon2" />
 
                 <ImageView
@@ -192,12 +193,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="1050px"
                     android:layout_marginTop="70px"
+                    android:onClick="onClick"
                     android:background="@mipmap/lvyouicon" />
 
                 <ImageView
                     android:id="@+id/dibioazhilv3"
                     android:layout_width="match_parent"
                     android:layout_height="1050px"
+                    android:onClick="onClick"
                     android:layout_marginTop="70px"
                     android:background="@mipmap/lvyouicon2" />
 
@@ -206,12 +209,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="1050px"
                     android:layout_marginTop="70px"
+                    android:onClick="onClick"
                     android:background="@mipmap/lvyouicon" />
 
                 <ImageView
                     android:id="@+id/dibioazhilv5"
                     android:layout_width="match_parent"
                     android:layout_height="1050px"
+                    android:onClick="onClick"
                     android:layout_marginTop="70px"
                     android:background="@mipmap/lvyouicon2" />
 
@@ -220,6 +225,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1050px"
                     android:layout_marginTop="70px"
+                    android:onClick="onClick"
                     android:background="@mipmap/lvyouicon" />
             </LinearLayout>
         </ScrollView>

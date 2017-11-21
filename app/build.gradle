@@ -12,6 +12,10 @@ android {
         versionName "1.0.0"
     }
 
+    defaultConfig {
+        resConfigs "zh"
+    }
+
     allprojects {
         repositories {
             maven { url "https://jitpack.io" }
@@ -20,6 +24,22 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_6
         targetCompatibility JavaVersion.VERSION_1_6
+    }
+    buildTypes {
+
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+        }
+
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            minifyEnabled false //混淆
+            zipAlignEnabled true    //Zipalign优化
+            shrinkResources false// 移除无用的resource文件
+        }
     }
 }
 
