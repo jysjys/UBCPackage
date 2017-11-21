@@ -748,6 +748,7 @@
             </RelativeLayout>
 
             <View
+                android:id="@+id/gaotieyuanxian"
                 android:layout_width="match_parent"
                 android:layout_height="660px"
                 android:layout_margin="20px"

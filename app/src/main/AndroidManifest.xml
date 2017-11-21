@@ -69,17 +69,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activitys.BaseActivity" />
-        <activity android:name=".activitys.TrainTravelActivity" />
-        <activity android:name=".activitys.NearbySearchActivity" />
-        <activity android:name=".activitys.DiBiaoZhiLvActivity" />
-        <activity android:name=".activitys.TravelReminderActivity" />
-        <activity android:name=".activitys.TravelLineActivity" />
-        <activity android:name=".activitys.StationInformationActivity" />
-        <activity android:name=".activitys.TicketHotelActivity" />
-        <activity android:name=".activitys.WeatherInquiryActivity" />
-        <activity android:name=".activitys.HuiminServicePointActivity" />
-        <activity android:name=".activitys.HighSpeedCinemaActivity"></activity>
+        <activity android:name=".activitys.BaseActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.TrainTravelActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.NearbySearchActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitys.DiBiaoZhiLvActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitys.DiBiaoZhiLv2Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitys.TravelReminderActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitys.TravelLineActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.StationInformationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.TicketHotelActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.WeatherInquiryActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.HuiminServicePointActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.HighSpeedCinemaActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

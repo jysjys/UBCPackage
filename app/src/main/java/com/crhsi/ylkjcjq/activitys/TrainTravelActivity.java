@@ -28,9 +28,11 @@ public class TrainTravelActivity extends AutoLayoutActivity implements View.OnCl
             case R.id.iv_close:
                 finish();
                 break;
+            case R.id.searchBtn:
             case R.id.bottom:
                 startActivity(new Intent(this, NearbySearchActivity.class));
                 break;
         }
     }
 }
+

@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.crhsi.ylkjcjq.activitys.HighSpeedCinemaActivity;
 import com.crhsi.ylkjcjq.activitys.HuiminServicePointActivity;
 import com.crhsi.ylkjcjq.activitys.StationInformationActivity;
 import com.crhsi.ylkjcjq.activitys.TicketHotelActivity;
@@ -54,6 +55,7 @@ public class HomeMain1Fragment extends Fragment implements View.OnClickListener 
 
         view.findViewById(R.id.tvSearchLvYouimg).setOnClickListener(this);
         view.findViewById(R.id.tvSearchLvYou).setOnClickListener(this);
+        view.findViewById(R.id.gaotieyuanxian).setOnClickListener(this);
         tvTraveltext01 = (TextView)view.findViewById(R.id.tvTraveltext01);
         tvTraveltext02 = (TextView)view.findViewById(R.id.tvTraveltext02);
         tvTravelBtn = (ImageView)view.findViewById(R.id.tvTravelBtn);
@@ -101,6 +103,9 @@ public class HomeMain1Fragment extends Fragment implements View.OnClickListener 
             case R.id.tvSearchLvYouimg:
                 startActivity(new Intent(mContext,TrainTravelActivity.class));
                 break;
+            case R.id.gaotieyuanxian:
+            startActivity(new Intent(mContext, HighSpeedCinemaActivity.class));
+            break;
            default:
 
                 break;

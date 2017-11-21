@@ -2,6 +2,60 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="/Users/ylkjcjq/.android/build-cache/c06d0ddbbff21862e741f062d0ef90ccc1d301bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_49bf76cf202569a524cd85f925f4f81710cea716/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/myfiles/androidsdk/android-sdk-windows/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_087a44111bb33e3c113974ede40edb8b2487e576/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ylkjcjq/.android/build-cache/36e1e363e0636da2edcabc78a280097f46d1fee1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94e2887f88d33cd38e2a5cbf099ee9a219f1c484/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ylkjcjq/.android/build-cache/4ba9eeb9093788ce49a539e622b1abc2ff282fba/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e45753e322890ec44dccf824d33aae552c462e81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ylkjcjq/.android/build-cache/3690f1fa20b7dc8edef315f17905636da2b71e96/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f122b3011a0d2d48e01b0c20f46b8424ebf07875/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ylkjcjq/.android/build-cache/cb52468736dcc317e561885129250e115686c600/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f9339ad7b321e9b3c967029aec3bbe1df7be836c/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/myfiles/git/CRHServiceInfomation/app/libs/httpmime-4.1.2.jar"
         jumboMode="false"
@@ -9,6 +63,69 @@
         revision="26.0.1"
         sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
         <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/pre-dexed/release/httpmime-4.1.2_90495c3b136e0dee5b3d16583f6dfb66eb2c348c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ylkjcjq/.android/build-cache/f0bfc05c87eba2f9bb2bef78d83a2a1d0d6ab7b4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6bd0bce90396f4508f9d5df506b980dcf71d5da7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/myfiles/git/CRHServiceInfomation/app/libs/httpmime-4.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.1.2_90495c3b136e0dee5b3d16583f6dfb66eb2c348c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/myfiles/git/CRHServiceInfomation/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6323cd23b429281cde97c4b75af5f2f4c236f9df">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d88149587e6d9f28a67370254cead0bd340507c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ylkjcjq/.android/build-cache/59676dff4a95df6bdb92e6eacc0221f742eeb18d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e96d209293fbdd69056e56f911145aed85b8aa4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ylkjcjq/.android/build-cache/bd05d309bb124661b4843234f6150548721e8cb3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_92cddc48d9c14221147190ef5f6746489ba725d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ylkjcjq/.android/build-cache/064e5a380445fbe0ef8be34c9a88839c71c44469/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b3e52622a12aca8b4f73aa0df7d6366d39306f91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/myfiles/git/CRHServiceInfomation/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/myfiles/git/CRHServiceInfomation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8a74207059b7071187a566a0e4e2d5df32752494/classes.dex" />
     </item>
 
 </items>

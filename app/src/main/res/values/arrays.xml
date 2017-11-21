@@ -1,0 +1,19 @@
+<!--?xml version=1.0 encoding=utf-8?-->
+<resources>
+    <string-array name="messagePopuWindowmore">
+        <item>摄影团</item>
+        <item>吃货团</item>
+        <item>剁手团</item>
+        <item>观光团</item>
+        <item>探险团</item>
+    </string-array>
+    <string-array name="messagePopuWindowmore2">
+        <item>人数由多到少</item>
+        <item>价格由高到低</item>
+        <item>价格由低到高</item>
+        <item>年龄分布30+居多</item>
+        <item>年龄分布30-居多</item>
+        <item>成员男性居多</item>
+        <item>成员女性居多</item>
+    </string-array>
+</resources>

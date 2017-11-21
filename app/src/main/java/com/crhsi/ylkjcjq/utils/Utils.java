@@ -420,6 +420,12 @@ public class Utils {
                 .getSystemService(Context.WINDOW_SERVICE);
         return wm.getDefaultDisplay().getHeight();
     }
+    //获取屏幕
+    public static int getWindowWidth(Context c) {
+        WindowManager wm = (WindowManager) c
+                .getSystemService(Context.WINDOW_SERVICE);
+        return wm.getDefaultDisplay().getWidth();
+    }
 
     public static boolean CheckEmpty(EditText et) {
         if (et.getText().toString().trim().length() == 0) {
